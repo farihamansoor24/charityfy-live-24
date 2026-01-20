@@ -23,6 +23,11 @@ h1,h2,h3,h4,h5,h6{
 .bg-grey{
     background-color: #f2f2f2;
 }
+.nav-link:hover{
+    color: #f8b864;
+    transform: scaleX(110%);
+    transition: transform .5s ease-in-out;
+}
 .yellow-btn {
     color: white !important;
     background-color: #f8b864;
