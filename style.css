@@ -401,7 +401,7 @@ span.date {
 
 /* ------Widget Content----- */
 .widget-content{
-    min-width:350px !important;
+    width:350px !important;
 }
 .widget-content h3 {
     color: #ddd;
