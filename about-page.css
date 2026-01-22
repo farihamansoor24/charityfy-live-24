@@ -11,3 +11,10 @@
     line-height: 1;
     letter-spacing: -0.04em;
 }
+.cta-section {
+    background-image: url(./images/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+}
