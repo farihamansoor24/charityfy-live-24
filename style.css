@@ -123,8 +123,8 @@ p {
     width: 38% !important;
     position: absolute;
     /* left: 200px !important; */
-    top: 5px !important;
-    left: 50% !important;
+    top: 0px !important;
+    left: 65px !important;
     transform: translateX(-50%);
 
 }
