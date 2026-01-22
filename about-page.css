@@ -1,0 +1,13 @@
+.about-banner{
+    background-image: url('./images/page-header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-wrapper .about-image, .about-content{
+    width: 48% !important;
+}
+.about-content h1{
+    color: #282828;
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
