@@ -266,12 +266,12 @@ p {
 /* -----Volunteer Section Styling */
 
 .vol-pics {
-    width: 45% !important;
+    width: 45% ;
 
 }
 
 .vol-contents {
-    width: 50% !important;
+    width: 50%;
 }
 
 .vol-p {
@@ -280,7 +280,7 @@ p {
 }
 
 .vol-details {
-    width: 45% !important;
+    width: 45%;
 }
 
 .vol-details .hover {
@@ -477,4 +477,22 @@ span.date {
     bottom: 50px;
     right: 50px;
     z-index: 999;
+}
+
+@media screen and (max-width:1200px) {
+    .promo-section {
+    margin-top: 10px !important;
+}
+}
+@media screen and (max-width:600px) {
+    .vol-details {
+    width: 100%;
+}
+.vol-pics {
+    width: 100% ;
+}
+.vol-contents {
+    width: 100%;
+}
+
 }
