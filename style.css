@@ -4,6 +4,7 @@ body {
     font-family: "Jost", sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 p {
@@ -15,7 +16,12 @@ p {
     background-color: #f8b864;
     font-size: 14px;
 }
-
+ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 .bg-grey {
     background-color: #f2f2f2;
 }
@@ -546,6 +552,13 @@ span.date {
 @media screen and (max-width:1200px) {
     .promo-section {
     margin-top: 10px !important;
+}
+.left-sidebar-wrap{
+    width: 100% !important;
+}
+.left-sb-card{
+    margin-top: 50px;
+    width: 100% !important;
 }
 }
 @media screen and (max-width:600px) {
