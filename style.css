@@ -31,6 +31,10 @@ ul {
     transform: scaleX(110%);
     transition: transform .5s ease-in-out;
 }
+.nav-item .active{
+    color: #f8b864 !important;
+    font-weight: bold;
+}
 .dropdown-item:hover{
     background-color: #f8b864;
     color: white;
@@ -560,6 +564,29 @@ span.date {
     margin-top: 50px;
     width: 100% !important;
 }
+}
+@media screen and (max-width:760px) {
+    
+    body, p {
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+        .contact-address ul li {
+        font-size: 10px !important;
+    }
+    .contact-address  {
+    width: 100% !important;
+    padding: 15px !important;
+}
+.contact-form {
+    width: 100% !important ;
+    padding: 15px !important;
+}
+    .colum-row .col-sm-6:first-child {
+        margin-bottom: 15px !important;
+    }
+
+
 }
 @media screen and (max-width:600px) {
     .vol-details {
